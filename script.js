@@ -4,7 +4,7 @@ const gif = document.querySelector(".gif");
 const takBtn = document.querySelector(".tak-btn");
 const nieBtn = document.querySelector(".nie-btn");
 
-yesBtn.addEventListener("click", () => {
+takBtn.addEventListener("click", () => {
   question.innerHTML = "Splendid, to może jakiś meet zaproponuj ;3";
   gif.src =
     "https://media.giphy.com/media/VKUSdDIW7vXWwTFCtf/giphy.gif";
